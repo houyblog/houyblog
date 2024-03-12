@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>
+        How to close current tab in a 
+        browser window using JavaScript?
+    </title>
+</head>
+ 
+<body style="text-align: center;">
+    <h2 style="color:green;">
+        DONBOSCOKEP WEBSITE
+    </h2>
+     
+    <h4 style="color:purple">
+        Close Tab/Window using JavaScript
+    </h4>
+ 
+    <button onclick="openWin()">                
+        Click to open Donboscokep website
+    </button>
+ 
+    <button onclick="closeWin()">
+        Click here to close the window
+    </button>
+    
+    <script>
+       
+        function openWin() {
+            myDonboscokepWindow = window
+                .open("https://donboscokep.org/", 
+                "_blank", "width=786, height=786");
+        }
+ 
+        function closeWin() {
+            myDonboscokepWindow();
+        }
+        
+    </script>
+</body>
+ 
+</html>
